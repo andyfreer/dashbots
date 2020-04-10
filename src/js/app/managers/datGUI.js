@@ -66,7 +66,7 @@ export default class DatGUI {
     });
 
 
-    /* Mesh */
+    /* Mesh
     const meshFolder = gui.addFolder('Mesh');
     meshFolder.add(Config.mesh, 'translucent', true).name('Translucent').onChange((value) => {
       if(value) {
@@ -79,7 +79,7 @@ export default class DatGUI {
     meshFolder.add(Config.mesh, 'wireframe', true).name('Wireframe').onChange((value) => {
       mesh.material.wireframe = value;
     });
-
+    */
 
     /* Lights */
     // Ambient Light
